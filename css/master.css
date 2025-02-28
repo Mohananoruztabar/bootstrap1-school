@@ -1,0 +1,101 @@
+
+body{
+
+    font-family: "Rubik", sans-serif;
+}
+.carousel-item{
+    position: relative;
+    height: 80vh;
+    background-size: cover;
+    background-position: center;
+    &::after{
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.5);
+        z-index: 5;
+    }
+}
+.carousel-caption{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+    z-index: 10;
+    text-align: center;
+    color: #fff;
+}
+.about-image{
+    height: 40%;
+    max-height: 40vh;
+    width: 100%;
+    object-fit: cover;
+
+}
+footer{
+    .box{
+        width: 200px;
+        height: 200px;
+        margin: 200px auto;
+        position: fixed;
+        bottom: -160px;
+        right: 50px;
+        z-index: 100;
+        &:hover{
+            >figure{
+                >img{
+                    transition: 1s;
+                    border-radius: 29% 71% 92% 8% / 55% 50% 50% 45%;
+                }
+                >figcaption{
+                    left: -30%;
+                    opacity: 1;
+                }
+            }
+        }
+        >figure{
+            width: 100%;
+            height: 100%;
+            >img{
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+                border-radius: 50%;
+            }
+            >figcaption{
+                width: 100px;
+                height: 200px;
+                position: absolute;
+                top: 10%;
+                left: 30%;
+                opacity: 0;
+                transition: 1s;
+                >a{
+                    text-decoration: none;
+                    transition: .8s;
+                    transition-property: transform;
+                    transition-timing-function: ease-out;
+                    &:nth-of-type(1){
+                        transition-delay: .2s;
+                    }
+                    &:nth-of-type(2){
+                        transition-delay: .4s;
+                    }
+                    &:nth-of-type(3){
+                        transition-delay: .6s;
+                    }
+                    &:nth-of-type(4){
+                        transition-delay: .8s;
+                    }
+                    >i{
+                        font-size: 35px;
+                        color: red;
+                    }
+                }
+            }
+        }
+    }
+}
