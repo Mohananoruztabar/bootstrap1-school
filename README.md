@@ -1,7 +1,7 @@
 # bootstrap1-school
-- [Demo Project](https://Mohananoruztabar.github.io/Grid/index1-css.html)
+- [Demo Project]https://mohananoruztabar.github.io/bootstrap1-school/index1.boot
 
-- ![Image](https://github.com/user-attachments/assets/18f22d29-f1fe-4447-b713-306f8a7f594a)
+- ![Image](https://github.com/user-attachments/assets/000bc95a-a4bd-4d04-9a5a-b456071287a3)
 
 -🙋🏽‍♀️ Developed by Mohana Noruztabar
 
